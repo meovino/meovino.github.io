@@ -55,7 +55,6 @@
 import Firebase from 'firebase'
 import toastr from 'toastr'
 let config = {
-  apiKey: 'AIzaSyDu98QDMph7csM-MHgbpMWCrfENZBnqdx4',
   authDomain: 'vuejs-firebase-01-2f9fc.firebaseapp.com',
   databaseURL: 'https://vuejs-firebase-01-2f9fc.firebaseio.com',
   storageBucket: 'vuejs-firebase-01-2f9fc.appspot.com',
