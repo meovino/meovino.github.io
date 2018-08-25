@@ -1,0 +1,19 @@
+{
+  "name" : "Independence Golf Club",
+  "street-address" : "2345 Golf Road Street",
+  "city" : "Midlothian",
+  "state" : "VA",
+  "zip" : "22323",
+  "reviews" : {
+    "000" : {
+      "user" : "HardcoreLooper",
+      "rating" : 3,
+      "link" : "https://foo/bax"
+    },
+    "001" : {
+      "user" : "cnosil",
+      "rating" : 5,
+      "link" : "https://foo/brz"
+    }   
+  }
+}
