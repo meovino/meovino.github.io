@@ -1,9 +1,9 @@
 {
   "name" : "Independence Golf Club",
-  "street-address" : "2345 Golf Road Street",
+  "street-address" : "600 Founders Bridge Blvd",
   "city" : "Midlothian",
   "state" : "VA",
-  "zip" : "22323",
+  "zip" : "23113",
   "reviews" : {
     "000" : {
       "user" : "HardcoreLooper",
@@ -14,6 +14,6 @@
       "user" : "cnosil",
       "rating" : 5,
       "link" : "https://foo/brz"
-    }   
+    }
   }
 }
