@@ -1,0 +1,19 @@
+{
+  "name" : "Royal Montreal Golf Club",
+  "street-address" : "600 Founders Bridge Blvd",
+  "city" : "Midlothian",
+  "state" : "VA",
+  "zip" : "23113",
+  "reviews" : {
+    "000" : {
+      "user" : "HardcoreLooper",
+      "rating" : 3,
+      "link" : "https://foo/bax"
+    },
+    "001" : {
+      "user" : "cnosil",
+      "rating" : 5,
+      "link" : "https://foo/brz"
+    }
+  }
+}
