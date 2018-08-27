@@ -3,7 +3,7 @@
   "street-address" : "1234 Main Street",
   "city" : "Richmond",
   "state" : "VA",
-  "zip" : "23236",
+  "postal-code" : "23236",
   "reviews" : {
     "000" : {
       "user" : "HardcoreLooper",

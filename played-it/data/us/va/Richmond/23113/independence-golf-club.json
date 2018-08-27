@@ -3,7 +3,7 @@
   "street-address" : "600 Founders Bridge Blvd",
   "city" : "Midlothian",
   "state" : "VA",
-  "zip" : "23113",
+  "postal-code" : "23113",
   "reviews" : {
     "000" : {
       "user" : "HardcoreLooper",
