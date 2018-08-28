@@ -20,4 +20,4 @@ const vm = new Vue({
       axios.get(url).then(response => { this.results = response.data });
     }
   }
-});
+});   
