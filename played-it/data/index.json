@@ -1,10 +1,8 @@
 ---
 ---
-[
   {% for item in site.pages%}
   {
     "url": "{{ item.url | escape }}",
     "path": "{{ item.path | escape }}",
     "dir": "{{ item.dir | escape }}"
   }{% endfor %}
-]
