@@ -1,6 +1,6 @@
 ---
 ---
-  {{ site.pages }}
+  {% site.pages %}
   {% for item in site.pages%}
   {
     "item": "{{ item | escape }}",
