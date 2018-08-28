@@ -10,7 +10,7 @@ const vm = new Vue({
     counter: 0
   },
   mounted() {
-      this.getData(this.suffix);
+      this.getData("");
   },
   methods: {
     getData: function(suffix) {
@@ -20,4 +20,4 @@ const vm = new Vue({
       axios.get(url).then(response => { this.results = response.data });
     }
   }
-});   
+});
