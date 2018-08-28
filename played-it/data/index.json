@@ -1,8 +1,12 @@
----
----
-  {% for item in site.collections%}
-  {
-    "url": "{{ item.url | escape }}",
-    "path": "{{ item.path | escape }}",
-    "dir": "{{ item.dir | escape }}"
-  }{% endfor %}
+{
+  "items" : {
+    "000" : {
+      "name" : "ca",
+      "path" : "/played-it/data/ca"
+    },
+    "001" : {
+      "name" : "us",
+      "path" : "/played-it/data/us"
+    }
+  }
+}
