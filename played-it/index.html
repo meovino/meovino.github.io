@@ -1,24 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
   <meta charset="utf-8">
   <title>Played It</title>
 </head>
 <body>
   <div class="container" id="app">
-    <h1>Routing Example</h1>
-    <p>
-       <router-link to = "/home">Router Link 0</router-link>
-       <router-link to = "/route1">Router Link 1</router-link>
-       <router-link to = "/route2">Router Link 2</router-link>
-    </p>
-    <!-- route outlet -->
-    <!-- component matched by the route will render here -->
-    <router-view></router-view>
-
+    <h1>Played It</h1>
     <div v-for="(result, index) in results">
-      <p> {{ index }} - {{ result.name }} </p>
+      <button v-on:click="getData(result.name)">{{ result.name }}</button>
     </div>
 
     <pre>{{ results }}</pre>
@@ -26,7 +16,6 @@
   </div>
   <script src="https://unpkg.com/vue"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
   <script src="vueApp.js"></script>
 </body>
 </html>
