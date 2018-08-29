@@ -8,7 +8,7 @@
   <div class="container" id="app">
     <h1>Played It</h1>
     <div v-for="(result, index) in results">
-      <button v-on:click="getData(result.dir)">{{ result.name }}</button>
+      <button v-on:click="getData(result.item)">{{ result.name }}</button>
     </div>
 
     <pre>{{ results }}</pre>

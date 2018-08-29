@@ -1,7 +1,7 @@
 [{
   "name": "Richmond",
-	"dir": "Richmond"
+	"item": "Richmond"
 },{
   "name": "Virginia Beach-Norfolk-Newport News",
-	"dir": "Virginia_Beach-Norfolk-Newport_News"
+	"item": "Virginia_Beach-Norfolk-Newport_News"
 }]

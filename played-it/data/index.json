@@ -1,7 +1,7 @@
 [{
   "name": "CA",
-	"dir": "ca"
+	"item": "ca"
 }, {
 	"name": "US",
-	"dir": "us"
+	"item": "us"
 }]
