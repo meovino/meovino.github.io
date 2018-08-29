@@ -1,7 +1,7 @@
 [{
-  "name": "ca",
-	"path": "/played-it/data/ca"
+  "name": "CA",
+	"dir": "ca"
 }, {
-	"name": "us",
-	"path": "/played-it/data/us"
+	"name": "US",
+	"dir": "us"
 }]
