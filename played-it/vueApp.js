@@ -22,7 +22,7 @@ const vm = new Vue({
       priorUrl = url;
       if (url == "") {
         url = baseUrl;
-      } elseif (suffix.indexOf(".")) {
+      } else if (suffix.indexOf(".") == 0) {
         url = url + suffix;
       } else {
         url = url + suffix + "/";
