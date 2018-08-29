@@ -17,13 +17,14 @@ const vm = new Vue({
   },
   methods: {
     getData: function(suffix) {
+      console.log("url before " + url);
       if (url == "") {
         url = baseUrl;
       } else {
         url = url + suffix + "/";
       }
       axios.get(url).then(response => { this.results = response.data });
-      console.log(url);  
+      console.log("url after " + url);  
     }
   }
 });
