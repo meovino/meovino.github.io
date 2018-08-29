@@ -17,18 +17,12 @@ const vm = new Vue({
   },
   methods: {
     getData: function(suffix) {
-      console.log('suffix=' + suffix);
-      console.log('did this get committed');
       if (url == "") {
         url = baseUrl;
-        console.log('first time through');
       } else {
         url = url + suffix + "/";
-        console.log('subsequent time through');
       }
-      console.log(url);
       axios.get(url).then(response => { this.results = response.data });
-
     }
   }
 });
