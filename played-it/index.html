@@ -6,13 +6,13 @@
 </head>
 <body>
   <div class="container" id="app">
-    <h1>Played It</h1>    
+    <h1>Played It</h1>
     <div v-for="(result, index) in results">
       <button v-on:click="getData(result.item)">{{ result.name }}</button>
     </div>
 
     <pre>{{ results }}</pre>
-
+ 
   </div>
   <script src="https://unpkg.com/vue"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
