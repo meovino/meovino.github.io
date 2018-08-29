@@ -20,15 +20,15 @@ const vm = new Vue({
     getData: function(suffix) {
       console.log("url before " + url);
       priorUrl = url;
-      if (url == "") {  
+      if (url == "") {
         url = baseUrl;
       } else if (suffix.indexOf(".")) {
         url = url + suffix;
       } else {
         url = url + suffix + "/";
       }
-      axios.get(url).then(response => { this.results = response.data });
       console.log("url after " + url);
+      axios.get(url).then(response => { this.results = response.data });
     },
     goBack: function() {
       axios.get(priorUrl).then(response => { this.results = response.data });
