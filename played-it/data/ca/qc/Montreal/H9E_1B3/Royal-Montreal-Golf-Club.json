@@ -2,7 +2,7 @@
   "name" : "Royal Montreal Golf Club",
   "street-address" : "25 South Ridge Road",
   "city" : "Montreal",
-  "state" : "QC",
+  "state" : "QC", 
   "postal-code" : "H9E 1B3",
   "reviews" : {
     "000" : {
