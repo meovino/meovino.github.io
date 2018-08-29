@@ -18,6 +18,7 @@ const vm = new Vue({
   methods: {
     getData: function(suffix) {
       console.log('suffix=' + suffix);
+      console.log('did this get committed');
       if (url == "") {
         url = baseUrl;
         console.log('first time through');
