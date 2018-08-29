@@ -29,7 +29,7 @@ const vm = new Vue({
       }
       axios.get(url).then(response => { this.results = response.data });
       console.log("url after " + url);
-    }
+    },
     goBack: function() {
       axios.get(priorUrl).then(response => { this.results = response.data });
     }
