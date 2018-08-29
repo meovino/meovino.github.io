@@ -1,4 +1,4 @@
 [{
   "name": "QA",
-	"path": "qc"
+	"dir": "qc"
 }]

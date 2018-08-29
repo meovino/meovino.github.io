@@ -23,6 +23,7 @@ const vm = new Vue({
         url = url + suffix + "/";
       }
       axios.get(url).then(response => { this.results = response.data });
+      console.log(url);
     }
   }
 });
