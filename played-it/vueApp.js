@@ -23,7 +23,7 @@ const vm = new Vue({
         url = baseUrl;
         console.log('first time through');
       } else {
-        url = url + suffix;
+        url = url + suffix + "/";
         console.log('subsequent time through');
       }
       console.log(url);
