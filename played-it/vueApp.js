@@ -32,6 +32,7 @@ const vm = new Vue({
     },
     goBack: function() {
       axios.get(priorUrl).then(response => { this.results = response.data });
+      url = priorUrl;
     }
   }
 });
