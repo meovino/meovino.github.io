@@ -1,7 +1,11 @@
-[{
-  "name": "CA",
-	"item": "ca"
-}, {
-	"name": "US",
-	"item": "us"
-}]
+[
+  {
+    "level": "country"
+  },{
+    "name": "CA",
+  	"item": "ca"
+  },{
+  	"name": "US",
+  	"item": "us"
+  }
+]
