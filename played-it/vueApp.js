@@ -19,10 +19,11 @@ const vm = new Vue({
   methods: {
     getData: function(suffix) {
       console.log("url before " + url);
+      console.log("suffix " + suffix);
       priorUrl = url;
       if (url == "") {
         url = baseUrl;
-      } else if (suffix.indexOf(".") == 0) {
+      } else if (suffix.indexOf(".") != 0) {
         url = url + suffix;
       } else {
         url = url + suffix + "/";
