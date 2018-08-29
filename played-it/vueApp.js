@@ -1,6 +1,6 @@
 var baseUrl = "https://meovino.github.io/played-it/data/";
-// https://api.github.com/repos/meovino/played-it/git/trees/45cb41bb3ec39302ff40ecb199e166ae76b66d95
-// https://api.github.com/repos/meovino/meovino.github.io/git/trees/45cb41bb3ec39302ff40ecb199e166ae76b66d95
+// contents api - https://api.github.com/repos/meovino/meovino.github.io/contents
+// trees api - https://api.github.com/repos/meovino/meovino.github.io/git/trees/{sha}
 
 const vm = new Vue({
   el: '#app',

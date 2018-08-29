@@ -1,12 +1,7 @@
-{
-  "items" : {
-    "000" : {
-      "name" : "ca",
-      "path" : "/played-it/data/ca"
-    },
-    "001" : {
-      "name" : "us",
-      "path" : "/played-it/data/us"
-    }
-  }
-}
+[{
+  "name": "ca",
+	"path": "/played-it/data/ca"
+}, {
+	"name": "us",
+	"path": "/played-it/data/us"
+}]
