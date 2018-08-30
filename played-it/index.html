@@ -7,16 +7,20 @@
 <body>
   <div class="container" id="app">
     <h1>Played It</h1>
-    <button v-on:click="goBack()">Go Back</button>
+    <router-link to="/foo">Go to Foo</router-link>
+    <router-link to="/bar">Go to Bar</router-link>
+    <router-link to="/">Countries</router-link>
+    <router-view v-bind:r="results"></router-view>
     <div v-for="(result, index) in results">
       <button v-on:click="getData(result.item)">{{ result.name }}</button>
     </div>
 
-    <pre>{{ results }}</pre>
+    <!-- pre>{{ results }}</pre -->
 
   </div>
   <script src="https://unpkg.com/vue"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
   <script src="vueApp.js"></script>
 </body>
 </html>

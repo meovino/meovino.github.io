@@ -1,17 +1,44 @@
 var url = "";
-var priorUrl = "";
 var baseUrl = "https://meovino.github.io/played-it/data/";
+var rslts = "";
 // contents api - https://api.github.com/repos/meovino/meovino.github.io/contents
 // trees api - https://api.github.com/repos/meovino/meovino.github.io/git/trees/{sha}
 
+// components
+const Foo = { template: '<div>foo</div>' }
+const Bar = { template: '<div>bar</div>' }
+const Home = {
+  props: ['r'],
+  template: `
+    <div>
+      This is the Home template for the Home route {{ r }}
+      <div v-for="(result, index) in r">
+        {{ result.item }} - {{ result.name }}<br />
+      </div>
+    </div>
+  `
+}
+
+const routes = [
+  { path: '/foo', component: Foo },
+  { path: '/bar', component: Bar },
+  { path: '/', component: Home }
+]
+
+const router = new VueRouter({
+  routes // short for `routes: routes`
+})
+
+
 const vm = new Vue({
   el: '#app',
+  router,
   data: {
-    previousSuffix: "",
-    currentSuffix: "",
     suffix: "",
     results: [],
-    counter: 0
+    counter: 0,
+    bu2: baseUrl,
+    rslt: rslts
   },
   mounted() {
       this.getData("");
