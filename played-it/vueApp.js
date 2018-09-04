@@ -7,13 +7,22 @@ var rslts = "";
 // components
 const Foo = { template: '<div>foo</div>' }
 const Bar = { template: '<div>bar</div>' }
+const StateProvince = {
+  props: ['sp'],
+  template: `
+    <div>
+      StateProvince - {{ sp }}
+    </div>
+  `
+  // next step - call getData again to get the list of metros for the state
+}
 const Home = {
   props: ['r'],
   template: `
     <div>
       This is the Home template for the Home route {{ r }}
       <div v-for="(result, index) in r">
-        {{ result.item }} - {{ result.name }}<br />
+        <router-link :to="{ name: 'sp', params: { sp: result.item } }">Go to StateProvince - {{ result.name }}</router-link>
       </div>
     </div>
   `
@@ -22,7 +31,8 @@ const Home = {
 const routes = [
   { path: '/foo', component: Foo },
   { path: '/bar', component: Bar },
-  { path: '/', component: Home }
+  { path: '/', component: Home },
+  { name: 'sp', path: '/state-province/:sp', component: StateProvince, props: true },
 ]
 
 const router = new VueRouter({
