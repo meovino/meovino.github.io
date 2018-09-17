@@ -1,0 +1,14 @@
+{
+  "name" : "The Cardinal Golf Club",
+  "street-address" : "11810 A Avenue",
+  "city" : "Fort Lee",
+  "state" : "VA",
+  "postal-code" : "23801",
+  "reviews" : {
+    "000" : {
+      "user" : "parkbrian1",
+      "rating" : 1,
+      "link" : "https://forum.mygolfspy.com/topic/23903-my-own-tour/?p=418012"
+    }
+  }
+}
