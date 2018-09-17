@@ -5,8 +5,10 @@ var rslts = "";
 // trees api - https://api.github.com/repos/meovino/meovino.github.io/git/trees/{sha}
 
 // components
-const Foo = { template: '<div>foo</div>' }
-const Bar = { template: '<div>bar</div>' }
+// const Foo = { template: '<div>foo</div>' }
+// const Bar = { template: '<div>bar</div>' }
+
+// StateProvince Template
 const StateProvince = {
   props: ['sp'],
   template: `
@@ -16,21 +18,26 @@ const StateProvince = {
   `
   // next step - call getData again to get the list of metros for the state
 }
+//Home Template
 const Home = {
   props: ['r'],
   template: `
     <div>
       This is the Home template for the Home route {{ r }}
       <div v-for="(result, index) in r">
-        <router-link :to="{ name: 'sp', params: { sp: result.item } }">Go to StateProvince - {{ result.name }}</router-link>
+        <router-link
+          :to="{ name: 'sp', params: { sp: result.item } }"
+          @click.native="getData(sp)">
+          Go to StateProvince - {{ result.name }}
+        </router-link>
       </div>
     </div>
   `
 }
 
 const routes = [
-  { path: '/foo', component: Foo },
-  { path: '/bar', component: Bar },
+  // { path: '/foo', component: Foo },
+  // { path: '/bar', component: Bar },
   { path: '/', component: Home },
   { name: 'sp', path: '/state-province/:sp', component: StateProvince, props: true },
 ]
