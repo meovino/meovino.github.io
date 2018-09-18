@@ -1,0 +1,14 @@
+{
+  "name" : "Mid Pines Inn and Golf Club",
+  "street-address" : "1010 Midland Road",
+  "city" : "Southern Pines",
+  "state" : "NC",
+  "postal-code" : "28387",
+  "reviews" : {
+    "000" : {
+      "user" : "MmmmmmBuddy",
+      "rating" : 0,
+      "link" : "https://forum.mygolfspy.com/topic/25428-heading-to-pinehurst-in-13-days/"
+    }
+  }
+}
