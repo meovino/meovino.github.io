@@ -4,11 +4,10 @@
   "city" : "Fort Lee",
   "state" : "VA",
   "postal-code" : "23801",
-  "reviews" : {
-    "000" : {
+  "reviews" :
+    [{
       "user" : "parkbrian1",
       "rating" : 0,
       "link" : "https://forum.mygolfspy.com/topic/23903-my-own-tour/?p=418012"
-    }
-  }
+    }]
 }
