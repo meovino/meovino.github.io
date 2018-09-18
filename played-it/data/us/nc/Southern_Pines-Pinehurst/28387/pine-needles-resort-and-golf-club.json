@@ -4,11 +4,14 @@
   "city" : "Southern Pines",
   "state" : "NC",
   "postal-code" : "28387",
-  "reviews" : {
-    "000" : {
+  "reviews" :
+    [{
       "user" : "MmmmmmBuddy",
       "rating" : 0,
       "link" : "https://forum.mygolfspy.com/topic/25428-heading-to-pinehurst-in-13-days/"
-    }
-  }
+    },{
+      "user" : "Undershooter30",
+      "rating" : 0,
+      "link" : "https://forum.mygolfspy.com/topic/14278-what-is-the-nicest-course-you-have-ever-played/"
+    }]
 }
