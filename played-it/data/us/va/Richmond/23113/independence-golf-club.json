@@ -4,16 +4,16 @@
   "city" : "Midlothian",
   "state" : "VA",
   "postal-code" : "23113",
-  "reviews" : { 
-    "000" : {
+  "reviews" :
+    [{
+      "id" : 0,
       "user" : "HardcoreLooper",
       "rating" : 3,
       "link" : "https://foo/bax"
-    },
-    "001" : {
+    },{
+      "id" : 1,
       "user" : "cnosil",
       "rating" : 5,
       "link" : "https://foo/brz"
-    }
-  }
+    }]
 }

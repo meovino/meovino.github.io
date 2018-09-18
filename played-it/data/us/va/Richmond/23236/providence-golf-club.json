@@ -4,16 +4,16 @@
   "city" : "Richmond",
   "state" : "VA",
   "postal-code" : "23236",
-  "reviews" : {
-    "000" : {
-      "user" : "HardcoreLooper",
-      "rating" : 4,
-      "link" : "https://foo/bar"
-    },
-    "001" : {
-      "user" : "cnosil",
-      "rating" : 3,
-      "link" : "https://foo/baz"
-    }
-  }
+  "reviews" :
+      [{
+        "id" : 0,
+        "user" : "HardcoreLooper",
+        "rating" : 4,
+        "link" : "https://foo/bar"
+      },{
+        "id" : 1,
+        "user" : "cnosil",
+        "rating" : 3,
+        "link" : "https://foo/baz"
+    }]
 }
