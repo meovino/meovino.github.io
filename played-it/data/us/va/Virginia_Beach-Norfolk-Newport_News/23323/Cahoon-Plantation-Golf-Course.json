@@ -1,9 +1,9 @@
 {
   "name" : "Cahoon Plantation Golf Course",
-  "street-address" : "1501 Cahoon Pkwy",
+  "streetAddress" : "1501 Cahoon Pkwy",
   "city" : "Chesapeake",
   "state" : "VA",
-  "zip" : "23323",
+  "postalCode" : "23323",
   "reviews" : [
     {
       "id" : 0,

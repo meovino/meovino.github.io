@@ -1,9 +1,9 @@
 {
   "name" : "The Cardinal Golf Club",
-  "street-address" : "11810 A Avenue",
+  "streetAddress" : "11810 A Avenue",
   "city" : "Fort Lee",
   "state" : "VA",
-  "postal-code" : "23801",
+  "postalCode" : "23801",
   "reviews" :
     [{
       "id" : 0,

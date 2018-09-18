@@ -1,9 +1,9 @@
 {
   "name" : "Providence Golf Club",
-  "street-address" : "1234 Main Street",
+  "streetAddress" : "1234 Main Street",
   "city" : "Richmond",
   "state" : "VA",
-  "postal-code" : "23236",
+  "postalCode" : "23236",
   "reviews" :
       [{
         "id" : 0,

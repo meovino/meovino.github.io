@@ -1,9 +1,9 @@
 {
   "name" : "Independence Golf Club",
-  "street-address" : "600 Founders Bridge Blvd",
+  "streetAddress" : "600 Founders Bridge Blvd",
   "city" : "Midlothian",
   "state" : "VA",
-  "postal-code" : "23113",
+  "postalCode" : "23113",
   "reviews" :
     [{
       "id" : 0,
