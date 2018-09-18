@@ -5,8 +5,14 @@
     state - {{ state }}<br />
     metro - {{ metro }}<br />
     zip - {{ zip }}<br />
+    name - {{ course.name }}<br />
+    street-address - {{ course.street-address }}<br />
+    city - {{ course.city }}<br />
+    state - {{ course.state }}<br />
+    postal-code - {{ course.postal-code }}<br />
+    reviews - {{ course.reviews }}<br />
     <pre>{{ course }}</pre>
-  </div>
+  </div>  
 </template>
 
 <script>
