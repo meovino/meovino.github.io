@@ -6,17 +6,22 @@
     metro - {{ metro }}<br />
     zip - {{ zip }}<br />
     name - {{ course.name }}<br />
-    street-address - {{ course.street-address }}<br />
+    street-address - {{ course.streetAddress }}<br />
     city - {{ course.city }}<br />
     state - {{ course.state }}<br />
-    postal-code - {{ course.postal-code }}<br />
-    reviews - {{ course.reviews }}<br />
-    <pre>{{ course }}</pre>
-  </div>  
+    postal-code - {{ course.postalCode }}<br />
+    <div
+      v-for="review in orderedReviews"
+      v-bind:key="review.id">
+      {{ review.user }} - {{ review.date }}:
+      <a :href="review.link" target="_blank">{{ review.link }}</a><br /><br />
+    </div>
+  </div>
 </template>
 
 <script>
   import axios from 'axios';
+  import _ from 'lodash';
 
   export default {
     props: ['country', 'state', 'metro', 'zip', 'course'],
@@ -38,6 +43,12 @@
             console.log('-----error-------');
             console.log(error)
           })
+      }
+    },
+
+    computed: {
+      orderedReviews: function () {
+        return _.orderBy(this.course.reviews, 'date', 'desc')
       }
     },
 

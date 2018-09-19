@@ -1,3 +1,5 @@
+// Tutorial - https://www.adcisolutions.com/knowledge/how-build-single-page-application-spa-vuejs?utm_source=medium&utm_medium=social&utm_campaign=medium-story-buildSPA-2&utm_term=-&utm_content=medium-buildSPA-PR
+
 import Vue from 'vue'
 import Router from 'vue-router'
 import App from './App.vue'
