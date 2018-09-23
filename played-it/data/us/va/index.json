@@ -1,7 +1,4 @@
 [{
-  "name": "Richmond",
-	"item": "Richmond"
-},{
-  "name": "Virginia Beach-Norfolk-Newport News",
-	"item": "Virginia_Beach-Norfolk-Newport_News"
+  "name": "Providence Golf Club",
+	"item": "providence-golf-club.json"
 }]
