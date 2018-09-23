@@ -1,0 +1,14 @@
+{
+  "name" : "Bandon Dunes Golf Resort",
+  "streetAddress" : "57744 Round Lake Road",
+  "city" : "Bandon",
+  "state" : "OR",
+  "postalCode" : "97411",
+  "reviews" :
+    [{
+      "id" : 0,
+      "user" : "GolfSpy Dave",
+      "rating" : 0,
+      "link" : "https://forum.mygolfspy.com/topic/23309-heading-back-to-bandon-dunes/"
+    }]
+}

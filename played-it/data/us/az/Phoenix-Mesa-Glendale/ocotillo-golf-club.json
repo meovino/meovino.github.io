@@ -1,0 +1,14 @@
+{
+  "name" : "Ocotillo Golf Club",
+  "streetAddress" : "3751 S Clubhouse Drive",
+  "city" : "Chandler",
+  "state" : "AZ",
+  "postalCode" : "85248",
+  "reviews" :
+    [{
+      "id" : 0,
+      "user" : "MeanMachine22",
+      "rating" : 0,
+      "link" : "https://forum.mygolfspy.com/topic/23976-ocotillo/"
+    }]
+}
