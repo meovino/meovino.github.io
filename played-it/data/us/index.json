@@ -1,6 +1,12 @@
 [{
+  "name": "AZ",
+	"item": "az"
+},{
   "name": "NC",
 	"item": "nc"
+},{
+  "name": "OR",
+	"item": "or"
 },{
   "name": "VA",
 	"item": "va"
