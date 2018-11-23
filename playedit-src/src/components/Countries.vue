@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <h1>Countries</h1>
+    <h1>Countries with golf courses</h1>
     // Countries.vue
     <pre>{{ countries }}</pre>
       <router-link
