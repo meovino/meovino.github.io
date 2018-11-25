@@ -1,16 +1,32 @@
+<!-- States.vue -->
 <template lang="html">
-  <div>
-    <h1>States</h1>
-    country - {{ country }}<br />
-    <pre>{{ states }}</pre>
-    <router-link
-      v-for="state in states"
-      v-bind:key="state.name"
-      :to="{ name: 'metros', params: {state: state.item} }">
-      {{state.name}}. {{state.item}}<br /><br />
-    </router-link>
-  </div>
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-5">
+        <h2>States with golf courses</h2>
+        <router-link
+          v-for="state in states"
+          v-bind:key="state.name"
+          :to="{ name: 'metros', params: {state: state.item} }">
+          {{state.name}}<br />
+        </router-link>
+      </div>
+      <div class="col-md-5">
+        <h2>Contribute to Our Reviews</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
+    </div>
+    <hr>
+  </div> <!-- /container -->
 </template>
+
+<style>
+  body {
+    padding-top: 4rem;
+  }
+</style>
 
 <script>
   import axios from 'axios';

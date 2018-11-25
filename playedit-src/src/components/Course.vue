@@ -1,22 +1,34 @@
+<!-- Course.vue -->
 <template lang="html">
-  <div>
-    <h1>Course</h1>
-    country - {{ country }}<br />
-    state - {{ state }}<br />
-    metro - {{ metro }}<br />
-    name - {{ course.name }}<br />
-    street-address - {{ course.streetAddress }}<br />
-    city - {{ course.city }}<br />
-    state - {{ course.state }}<br />
-    postal-code - {{ course.postalCode }}<br />
-    <div
-      v-for="review in orderedReviews"
-      v-bind:key="review.id">
-      {{ review.user }} - {{ review.date }}:
-      <a :href="review.link" target="_blank">{{ review.link }}</a><br /><br />
+  <div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+      <div class="col-md-7">
+        <h2>{{ course.name }}</h2>
+        {{ course.streetAddress }}<br />
+        {{ course.city }}, {{ course.state }}  {{ course.postalCode }}<br />
+        <div
+          v-for="review in orderedReviews"
+          v-bind:key="review.id">
+          {{ review.user }} - {{ review.date }}:
+          <a :href="review.link" target="_blank">{{ review.link }}</a><br /><br />
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h2>Contribute to Our Reviews</h2>
+        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div>
     </div>
-  </div>
+    <hr>
+  </div> <!-- /container -->
 </template>
+
+<style>
+  body {
+    padding-top: 4rem;
+  }
+</style>
 
 <script>
   import axios from 'axios';

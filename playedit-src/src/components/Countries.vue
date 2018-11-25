@@ -1,3 +1,4 @@
+<!-- Countries.vue -->
 <template lang="html">
   <div class="container">
     <!-- Example row of columns -->
@@ -10,8 +11,6 @@
             :to="{ name: 'states', params: {country: country.item} }">
             {{country.name}}<br />
           </router-link>
-        <p>Scroll through our list of courses to read reviews.</p>
-        <p><router-link :to="{ name: 'countries', params: {} }" class="btn btn-secondary" role="button">View details &raquo;</router-link></p>
       </div>
       <div class="col-md-5">
         <h2>Contribute to Our Reviews</h2>

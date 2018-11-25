@@ -31,3 +31,15 @@
     </div> <!-- /container -->
   </div>
 </template>
+
+<style>
+  body {
+    padding-top: 3.5rem;
+  }
+
+  .btn-primary, .btn-outline-primary, .btn-primary:hover {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+</style>
