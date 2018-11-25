@@ -4,7 +4,6 @@
     country - {{ country }}<br />
     state - {{ state }}<br />
     metro - {{ metro }}<br />
-    zip - {{ zip }}<br />
     name - {{ course.name }}<br />
     street-address - {{ course.streetAddress }}<br />
     city - {{ course.city }}<br />
@@ -35,7 +34,7 @@
 
     methods: {
       getCourse() {
-        axios(this.endpoint + this.country + '/' + this.state + '/' + this.metro + '/' + this.zip + '/' + this.course)
+        axios(this.endpoint + this.country + '/' + this.state + '/' + this.metro + '/' + this.course)
           .then(response => {
             this.course = response.data
           })

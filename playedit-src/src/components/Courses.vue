@@ -4,7 +4,6 @@
     country - {{ country }}<br />
     state - {{ state }}<br />
     metro - {{ metro }}<br />
-    zip - {{ zip }}<br />
     <pre>{{ courses }}</pre>
     <router-link
       v-for="course in courses"
@@ -30,7 +29,7 @@
 
     methods: {
       getCourses() {
-        axios(this.endpoint + this.country + '/' + this.state + '/' + this.metro + '/' + this.zip + '/')
+        axios(this.endpoint + this.country + '/' + this.state + '/' + this.metro + '/')
           .then(response => {
             this.courses = response.data
           })

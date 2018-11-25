@@ -1,8 +1,3 @@
-/* Deploy instructions
-    1.  npm run build
-    2.  Copy playedit-src/dist/build.js and build.js.map to played-it/build.js and build.js.map
-    3.  Push to github */
-
 // Tutorial - https://www.adcisolutions.com/knowledge/how-build-single-page-application-spa-vuejs?utm_source=medium&utm_medium=social&utm_campaign=medium-story-buildSPA-2&utm_term=-&utm_content=medium-buildSPA-PR
 
 import Vue from 'vue'
@@ -52,12 +47,18 @@ const router = new Router({
     },
     {
       path: '/:country/:state/:metro',
+      name: 'zips',
+      component: Zips,
+      props: true,
+    },
+    {
+      path: '/:country/:state/:metro/:zip',
       name: 'courses',
       component: Courses,
       props: true,
     },
     {
-      path: '/:country/:state/:metro/:course',
+      path: '/:country/:state/:metro/:zip/:course',
       name: 'course',
       component: Course,
       props: true,

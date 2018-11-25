@@ -7,7 +7,7 @@
     <router-link
       v-for="metro in metros"
       v-bind:key="metro.name"
-      :to="{ name: 'zips', params: {metro: metro.item} }">
+      :to="{ name: 'courses', params: {metro: metro.item} }">
       {{metro.name}}. {{metro.item}}<br /><br />
     </router-link>
   </div>
