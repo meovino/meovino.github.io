@@ -1,12 +1,15 @@
 [
   {
-    "name": "Canada",   
+    "name": "Canada",
   	"item": "ca"
   },{
-  	"name": "Mexico",  
-  	"item": "mx"       
+  	"name": "Germany",
+  	"item": "de"       
   },{
-  	"name": "United States",  
-  	"item": "us"       
+  	"name": "Mexico",
+  	"item": "mx"
+  },{
+  	"name": "United States",
+  	"item": "us"
   }
 ]
