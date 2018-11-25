@@ -3,6 +3,9 @@
     "name": "Canada",   
   	"item": "ca"
   },{
+  	"name": "Mexico",  
+  	"item": "mx"       
+  },{
   	"name": "United States",  
   	"item": "us"       
   }
